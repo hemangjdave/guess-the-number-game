@@ -1,0 +1,14 @@
+<thlogic>
+    <attr sel="#headId" th:replace="~{fragments/head :: headFragment}" />
+
+    <attr sel="#mainMessage" th:text="${__${T(com.techRevolution.util.AttributeNames).MAIN_MESSAGE}__}"/>
+
+    <attr sel="#resultMessage" th:text="${__${T(com.techRevolution.util.AttributeNames).RESULT_MESSAGE}__}"/>
+
+    <attr sel="#playMessage" th:action="@{__${T(com.techRevolution.util.GameMapping).PLAY}__}"/>
+
+    <attr sel="#game-title" th:text="#{game.title}"/>
+
+    <attr sel="#footer" th:replace="~{fragments/footer :: footerFragment}"/>
+
+</thlogic>

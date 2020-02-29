@@ -1,0 +1,10 @@
+com\techRevolution\util\thymeleaf\DecoupledLogicSetup.class
+com\techRevolution\util\AttributeNames.class
+com\techRevolution\controller\GameController.class
+com\techRevolution\Web.class
+com\techRevolution\service\GameServiceImpl.class
+com\techRevolution\util\ViewNames.class
+com\techRevolution\util\GameMapping.class
+com\techRevolution\interceptors\RequestInterceptor.class
+com\techRevolution\config\WebConfig.class
+com\techRevolution\service\GameService.class
